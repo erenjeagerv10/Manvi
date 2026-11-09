@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ########################html element styling######################## */
+
+html{
+    /* font-size: 10px; */
+    /* 16px----100% */
+    /* 10px------(10/16)*10 */
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+} 
+
+p, li{
+    font-size: 1.4rem;
+    color: aliceblue;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+h1, h2, h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    color: antiquewhite;
+    font-weight: 500;
+}
+
+.co{
+    width: 100vw;
+    border-radius: 10px;
+    height: 100vh;
+    text-align: center ; 
+  /*  max-width: 400px;*/
+  /*   border: 2px dashed green; */
+  /*  background-color: rgba(0, 0, 0, 0.6);*/
+    width: 100vw;
+    margin: 0 auto;
+    padding: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(58, 75, 150, 0.678)),url(e2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+/* .bg{
+    width: 100rem;
+    height: 100rem;
+} */
+
+.co1{
+    /* border: 2px dashed blue; */
+    margin: 90% 0px;
+}
+
+.co3{
+    border: 2px dashed blue;
+}
